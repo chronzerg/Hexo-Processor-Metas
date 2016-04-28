@@ -1,5 +1,21 @@
 {
   "name": "hexo-processor-metas",
   "version": "0.1.0",
-  "main": "./index.js"
+  "main": "./index.js",
+  "description": "Tag/Category metadata processor for the Hexo blogging framework.",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronzerg/Hexo-Processor-Metas.git"
+  },
+  "author": "Jon Anderson <jon.david.anderson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chronzerg/Hexo-Processor-Metas/issues"
+  },
+  "homepage": "https://github.com/chronzerg/Hexo-Processor-Metas#readme"
 }
