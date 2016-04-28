@@ -1,3 +1,4 @@
 'use strict';
 
-hexo.extend.processor.register('_meta/*path', require('./lib/processor.js')(hexo));
+var Pattern = require('hexo-util').Pattern;
+hexo.extend.processor.register('_metas/*path', require('./lib/processor.js')(hexo));
